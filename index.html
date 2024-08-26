@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelu's Doceria</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Angelu's Doceria</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#feedbacks">Feedbacks</a></li>
+                <li class="nav-item"><a class="nav-link" href="#historia">Nossa História</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="container">
+            <h1>Bem-vindo à Angelu's Doceria</h1>
+            <p>Delícias feitas com amor e qualidade</p>
+        </div>
+    </header>
+
+    <!-- Produtos Section -->
+    <section class="produtos" id="produtos">
+        <div class="container">
+            <h2>Produtos</h2>
+            <div class="produto-cards">
+                <!-- Exemplo de um card de produto -->
+                <div class="produto-card">
+                    <img src="img/produto1.jpg" alt="Produto 1">
+                    <h3>Nome do Produto</h3>
+                    <p>Descrição do produto.</p>
+                </div>
+                <!-- Adicione mais cards de produtos aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedbacks Section -->
+    <section class="feedbacks" id="feedbacks">
+        <div class="container">
+            <h2>Feedbacks dos Clientes</h2>
+            <div class="feedback-cards">
+                <!-- Exemplo de um card de feedback -->
+                <div class="feedback-card">
+                    <p>"Ótima doceria! Adorei os doces."</p>
+                    <p><strong>Cliente A</strong></p>
+                </div>
+                <!-- Adicione mais cards de feedback aqui -->
+            </div>
+        </div>
+    </section>
+
+    <!-- História Section -->
+    <section class="historia" id="historia">
+        <div class="container">
+            <h2>Nossa História</h2>
+            <p>Aqui você pode contar a história da doceria.</p>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <form action="mailto:email@dominio.com" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-comprar">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Angelu's Doceria. Todos os direitos reservados.</p>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Icon -->
+    <div class="whatsapp-icon">
+        <a href="https://wa.me/5511999999999" target="_blank"><img src="img/whatsapp-icon.png" alt="WhatsApp"></a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
